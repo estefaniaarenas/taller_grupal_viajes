@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;1,300;1,400&family=Poppins:wght@400;700&family=Roboto:wght@300;400&display=swap");
+* {
+  /*font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;*/
+  font-family: "Poppins", sans-serif;
+}
+.tituloUno {
+  font-size: 5em;
+}
+.textoCarrusel {
+  bottom: 0;
+  top: 5em;
+}
+.fa-globe{
+  color:#f7f8fd;
+}
+
+/*p {
+  font-size: 3em;
+}*/
+
+.nosotros {
+  font-size: 1em;
+}
+.imgNosotros {
+  width: 15em;
+  height: auto;
+  transition: transform 0.2s;
+  border-radius: 10px;
+}
+.imgNosotros:hover {
+  transform: scale(1.1);
+}
+.imgNosotros1 {
+  width: 10em;
+  height: auto;
+  transition: transform 0.2s;
+  border-radius: 8px;
+}
+
+.imgNosotros1:hover {
+  transform: scale(1.3);
+}
+.formulario {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 47, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 5em;
+  border-radius: 10px;
+  height: 70vh;
+  margin-top: 4em;
+  width: 50vh;
+}
+.formulario label,
+.form-text {
+  color: white;
+}
+.comentario {
+  justify-content: center;
+  display: flex;
+}
+.tituloForm {
+  text-align: center;
+  color: white;
+}
+.imgFondo::before {
+  content: "";
+  background-image: url("../img/fondo.jpg");
+  filter: opacity(0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.titulo-1{
+  font-weight: bolder;
+  font-size: 5rem;
+  color: #20284f;
+}
+.parrafo-1{
+  font-weight: 500;
+  font-size: 2rem;
+  color: #20284f;
+}
+
+
+
+.mapa-imagen{
+  background-color: #069bca; 
+  width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: opacity(1);
+    border-radius: 50%;
+    margin: 5px auto;
+    cursor: pointer;
+    
+  
+}
+.mapa-imagen:hover{
+  background-color: #20284f;
+}
+
+.proceso-1{
+  margin-top: 20px;
+}
+.texto-1{
+  padding: 10px 50px;
+  color: #787878;
+ 
+}
+
+.titulo-proceso{
+  color: #20284f;
+  
+}
+
+.servicios{
+  text-align: center;
+  margin: 30px;
+}
+.servicios-2{
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+  padding-bottom: 0;
+
+}
+.titulo-servicios{
+  font-weight: bold;
+  background: #F9f9f9;
+  color: #20284f;
+}
+.titulo-servicios-2{
+  font-weight: bold;
+  background: #F9f9f9;
+  color: #20284f;
+  font-size: 4rem;
+}
+body{
+  background-color: #F9f9f9;
+}
+.caja-servicios{
+  background-color: #f9f9f9;
+  
+}
+
+
+
+.cards-total{
+  background: #F9f9f9;
+}
+.cards-total .container{
+  padding-top: 20px; 
+  padding-bottom: 100px;
+}
+.cards-total a{
+  text-decoration: none;
+  outline: none;
+}
+.card-flyer {
+  border-radius: 5px;
+  background: #F9f9f9;
+  margin-top: 50px;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+ .imagen-caja{
+  background: #f9f9f9;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+  border-radius: 5px;
+}
+.imagen-caja img{
+  height: 200px;
+  width: 100%;
+}
+.card-flyer:hover .imagen-caja img{
+  opacity: 0.7;
+ 
+}
+ .texto-caja{
+  text-align: justify;
+}
+.text-container{
+  padding: 30px 18px;
+}
+
+.cards-total.card-flyer:hover{
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+  transition: all 0.2s ease-in;
+  margin-top: 50px;
+}
+ .texto-caja p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; 
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #787878;;
+}
+ .texto-caja h6{
+  margin-top: 0px;
+  margin-bottom: 4px; 
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #069bca;
+}
+
+.comprarBotonUno{
+  margin-top: 15px;
+  background-color: #069bca;
+  color: #f9f9f9;
+  margin: none;
+}
+
+.comprarBotonDos{
+  margin-top: 15px;
+  background-color: #20284f;
+  color: #f9f9f9;
+  margin: none;
+}
+
+.fa-star{
+  color: #FFD93D;
+ 
+}
+
+.social:hover{
+  background-color: #def3ff;
+
+}
