@@ -21,6 +21,7 @@ function Enviar (){
 
 
 /*destinos compra*/
+
 function calcular() {
   let valor = document.getElementById("num").value;
   let plan = 500000;

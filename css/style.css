@@ -228,6 +228,13 @@ body{
   margin: none;
 }
 
+.buy{
+  margin-top: 15px;
+  background-color: #20284f;
+  color: #f9f9f9;
+  margin: none;
+}
+
 .fa-star{
   color: #FFD93D;
  
