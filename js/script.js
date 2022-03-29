@@ -18,3 +18,48 @@ function Enviar (){
       document.getElementById(`inputEmail`).value = "";
       document.getElementById(`inputPhone`).value = "";
 }
+
+
+/*destinos compra*/
+function calcular() {
+  let valor = document.getElementById("num").value;
+  let plan = 500000;
+  let calculo = valor * plan;
+  //alert("Debes pagar: " +calculo);
+  //Swal.fire( 'el valor total pagado fue de ' +calculo,'Gracias por preferirnos', 'success',)
+  Swal.fire({
+    icon: "success",
+    title: "el valor total pagado fue de " + calculo,
+    showConfirmButton: true,
+    timer: 1500,
+    confirmButtonColor: "#db0000",
+  });
+}
+
+function calcularTwo() {
+  let valor = document.getElementById("num").value;
+  let plan = 1000000;
+  let calculo = valor * plan;
+  //alert("Debes pagar: " +calculo);
+  Swal.fire({
+    icon: "success",
+    title: "el valor total pagado fue de " + calculo,
+    showConfirmButton: true,
+    timer: 1500,
+    confirmButtonColor: "#db0000",
+  });
+}
+
+function calcularThree() {
+  let valor = document.getElementById("num").value;
+  let plan = 800000;
+  let calculo = valor * plan;
+  //alert("Debes pagar: " +calculo);
+  Swal.fire({
+    icon: "success",
+    title: "el valor total pagado fue de " + calculo,
+    showConfirmButton: true,
+    timer: 1500,
+    confirmButtonColor: "#db0000",
+  });
+}
