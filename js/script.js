@@ -77,4 +77,10 @@ function calcularFour() {
     timer: 1500,
     confirmButtonColor: "#20284f",
   });
+  
+  valor = document.getElementById("num").value;
+  plan = 800000;
+  calculo = valor * plan;
+
+
 }
