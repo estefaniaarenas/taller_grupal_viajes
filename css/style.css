@@ -4,8 +4,9 @@
   font-family: "Roboto", sans-serif;*/
   font-family: "Poppins", sans-serif;
 }
+
 .tituloUno {
-  font-size: 5em;
+  font-size: 4em;
 }
 .textoCarrusel {
   bottom: 0;
@@ -151,6 +152,11 @@ body{
   background-color: #f9f9f9;
   
 }
+.nosotros{
+ text-align: center; 
+ line-height: 2em;
+ color:#787878;
+}
 
 
 
@@ -245,9 +251,48 @@ body{
 
 }
 
+<<<<<<< HEAD
 /*CARDS */
 
 .imagenes{
   border-radius: 60%;
   
+=======
+
+
+@media (max-width:1285px) and (min-width:815.98px) {
+  .tituloUno{
+     font-size: 2em;
+  }
+}
+
+@media (max-width:816px) and (min-width: 769.98px) {
+  .tituloUno{
+     font-size: 1.5em;
+  }
+ 
+}
+
+@media (max-width: 768px) and (min-width:514.98px) {
+  .tituloUno{
+    font-size: 1em;
+  }
+  .imgNosotros{
+    width: 10em;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-widht: 514px){
+ .imgNosotros1{
+   visibility: hidden;
+   display: none;
+ }
+  .imgNosotros{
+    width: 10em;
+    justify-content: center;
+    align-items: center;
+  }
+>>>>>>> fcdd5a9e70fe8962e60112aaaf7a24ee614d612e
 }
