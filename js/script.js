@@ -33,7 +33,7 @@ function calcular() {
     title: "el valor total pagado fue de " + calculo,
     showConfirmButton: true,
     timer: 1500,
-    confirmButtonColor: "#db0000",
+    confirmButtonColor: "#20284f",
   });
 }
 
@@ -47,7 +47,7 @@ function calcularTwo() {
     title: "el valor total pagado fue de " + calculo,
     showConfirmButton: true,
     timer: 1500,
-    confirmButtonColor: "#db0000",
+    confirmButtonColor: "#20284f",
   });
 }
 
@@ -61,6 +61,20 @@ function calcularThree() {
     title: "el valor total pagado fue de " + calculo,
     showConfirmButton: true,
     timer: 1500,
-    confirmButtonColor: "#db0000",
+    confirmButtonColor: "#20284f",
+  });
+}
+
+function calcularFour() {
+  let valor = document.getElementById("num").value;
+  let plan = 800000;
+  let calculo = valor * plan;
+  //alert("Debes pagar: " +calculo);
+  Swal.fire({
+    icon: "success",
+    title: "el valor total pagado fue de " + calculo,
+    showConfirmButton: true,
+    timer: 1500,
+    confirmButtonColor: "#20284f",
   });
 }
