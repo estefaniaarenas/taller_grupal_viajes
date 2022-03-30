@@ -1,3 +1,4 @@
+/*CONTACTANOS*/
 function Enviar (){
    
     let nombre = document.getElementById("inputName").value;
