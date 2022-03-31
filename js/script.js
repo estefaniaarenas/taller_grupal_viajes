@@ -89,7 +89,7 @@ function seleccionarOpcion(precio) {
 function comprar() {
   let valor = document.getElementById("num").value;
   let comprar = valor * precioPlan;
-  alert("Debes pagar: " + comprar);
+  //alert("Debes pagar: " + comprar);
   Swal.fire({
     icon: "success",
     title: "el valor total pagado fue de " + comprar,
@@ -100,9 +100,9 @@ function comprar() {
 }
 
 function informacion(titulo, descripcion) {
-  let tituloModal = document.getElementById("paquetesTitulo");
-  tituloModal.innerHTML = titulo;
-  let descripcionModal = document.getElementById("descripcion");
-  descripcionModal.innerHTML = descripcion;
+  //let tituloModal = document.getElementById("paquetesTitulo");
+  //tituloModal.innerHTML = titulo;
+  //let descripcionModal = document.getElementById("descripcion");
+  //descripcionModal.innerHTML = descripcion;
 
 }

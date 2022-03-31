@@ -306,6 +306,8 @@ body {
   background: #F9f9f9;
   color: #20284f;
   font-size: 4rem;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .customCarouselCard {

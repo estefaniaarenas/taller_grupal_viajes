@@ -93,14 +93,14 @@
                                 <div class="text-container">
                                     <h6>Caño Cristales</h6>
                                     <p>Vive una experiencia única en Caño Cristales. Internacionalmente conocido por ser
-                                        uno de los ríos más hermosos del mundo gracias a sus llamativos colores. ven y
-                                        disfruta con nostros esta maginifica aventura!</p>
+                                        uno de los ríos más hermosos del mundo gracias a sus llamativos colores.Ven y
+                                        disfruta este destino!</p>
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i></i> 367 Reviews</p>
-                                    <button onclick="informacion('Caño Cristales','El plan turistico tiene un valor de 1.000.000 el cual tiene una duracion de tres noches y cuatro dias, incluye hospedaje, alimentacion y traslado, acompañamiento de un guia certificado y un seguro de asistencia ante cualquier enventualidad.')" type="button"
+                                    <button onclick="informacion()" type="button"
                                         class="btn btn-primary btn-sm comprarBotonUno" data-bs-toggle="modal"
-                                        data-bs-target="#paquetes">Ver
+                                        data-bs-target="#paquetes-1">Ver
                                         mas</button>
                                     <button onclick="seleccionarOpcion(1000000)" type="button" class="btn  btn-sm buy"
                                         data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -127,9 +127,9 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i> 382 Reviews</p>
-                                    <button onclick="informacion('Guatape', 'Adquiriendo el paquete Guatape,por el precio de 600.000 contaras con los siguientes beneficios: Transporte en vehículos especiales de turismo, desayuno y almuerzo en el municipio de Marinilla , Visita al pueblo del Peñol, visita a la Réplica del Antiguo Peñol, tour en barco por la represa de Guatapé, visita al municipio de Guatapé, Calle de los recuerdos, Plaza de los Zócalos, Guía acompañante y Tarjeta de asistencia médica' )" type="button"
+                                    <button onclick="informacion()" type="button"
                                         class="btn btn-primary btn-sm comprarBotonUno" data-bs-toggle="modal"
-                                        data-bs-target="#paquetes">Ver
+                                        data-bs-target="#paquetes-2">Ver
                                         mas</button>
                                     <button onclick="seleccionarOpcion(600000)" type="button" class="btn  btn-sm buy"
                                         data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -155,10 +155,9 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i> 500 Reviews</p>
-                                    <button
-                                        onclick="informacion('Tayrona','Adquiriendo un paquete a el Tayrona,con UNIQUE TRAVELS tendrás acceso a tu vuelo ida y vuelta, y a tu alojamiento. Además, tu encontrarás variedad de paquetes con una actividad definida, traslado desde el aeropuerto y asistencia al viajero. Este paquete esta diseñado para 2 personas y su costo es de 800.000.')"
-                                        type="button" class="btn btn-primary btn-sm comprarBotonUno"
-                                        data-bs-toggle="modal" data-bs-target="#paquetes">Ver
+                                    <button onclick="informacion()" type="button"
+                                        class="btn btn-primary btn-sm comprarBotonUno" data-bs-toggle="modal"
+                                        data-bs-target="#paquetes-3">Ver
                                         mas</button>
                                     <button onclick="seleccionarOpcion(800000)" type="button" class="btn  btn-sm buy"
                                         data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -197,30 +196,168 @@
         </div>
     </div>
 
+
     <!--Modal/VER MÁS-->
 
 
     <div class="modal fade" id="paquetes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="paquetesTitulo">Conoce más de esta aventura.</h5>
+                    <h5 class="modal-title" id="paquetesTitulo" style="font-weight: 900; font-size: 2em; padding-left: 40px;">Alta Guajira</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p id="descripcion"></p>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align: justify; padding: 30px 50px 30px 50px;">
+                            <p id="descripcion">
+                                Trabajamos para beneficiar a las comunidades Indígenas Wayuu. Incluimos en nuestra
+                                cadena turística a familias nativas apoyando su auto sostenibilidad. <br> <br> El
+                                paquete incluye: <br><br> ✔ 3 dias y 2 noches en Cabo de la Vela. <br> ✔ Comida incluida
+                                (desayuno, almuerzo y cena). <br> ✔ Hospedaje tradicional. <br> NO INCLUYE TIQUETES
+                                AEREOS. <br> PRECIO POR PERSONA: $950.000.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/guajira1.webp" alt=""
+                                style="width: 480px; height: 350px; border-radius: 15px; margin-bottom: 15px;">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    
+    <!--MODAL#2 -->
+
+    <div class="modal fade" id="paquetes-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paquetesTitulo" style="font-weight: 900; font-size: 2em; padding-left: 50px;">Caño Cristales</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align: justify; padding: 30px 50px 30px 50px;">
+                            <p id="descripcion">
+                                Con UNIQUE TRAVELS encuentras vuelos directos desde las ciudades de Villavicencio,
+                                Bogotá y Medellín. <br> <br> El
+                                paquete incluye: <br><br> ✔ Recorrido de 20 minutos en lancha por el rio Guayabero
+                                disfrutando del paisaje <br> ✔ Comida incluida
+                                (desayuno, almuerzo y cena).<br> ✔ Recorrido de 20 minutos en Camionetas de la asociación desde el punto de
+                                desembarque de la lancha hasta el manantial del Cajuche.
+                                <br> ✔ Se visitará el sendero asignado por Coormacarena o Parques Nacionales según
+                                permiso
+                                <br> ✔ Retorno al casco Urbano de La Macarena, de la misma forma en que se ingresó a
+                                Caño Cristales. <br>Precio Total: $1.000.000.
+                                
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/Cano-Cristales-(4).jpeg" alt=""
+                                style="width: 500px; height: 280px; border-radius: 15px; margin-bottom: 15px; margin-top: 50px;">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--MODAL#3 -->
+
+    <div class="modal fade" id="paquetes-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paquetesTitulo" style="font-weight: 900; font-size: 2em; padding-left: 50px;">Guatape</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align: justify; padding: 30px 50px 30px 50px;">
+                            <p id="descripcion">
+                                Adquiriendo el paquete Guatape contaras con los
+                                siguientes beneficios: <br><br>
+                                ✔ Transporte en vehículos especiales de turismo. <br>
+                                ✔ Desayuno y almuerzo en el municipio de Marinilla. <br>
+                                ✔ Visita al pueblo del Peñol. <br>
+                                ✔ Visita a la Réplica del Antiguo Peñol. <br>
+                                ✔ Tour en barco por la represa de Guatapé. <br>
+                                ✔ Visita al municipio de Guatapé, Calle de los recuerdos y Plaza de los Zócalos. <br>
+                                ✔ Guía acompañante y Tarjeta de asistencia médica. <br>
+                                    PRECIO TOTAL POR PAREJA: $600.000.                                
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/experiencias-tres.png" alt=""
+                                style="width: 500px; height: 400px; border-radius: 15px; margin-bottom: 15px; margin-top: 20px;">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--MODAL#4 -->
+
+    <div class="modal fade" id="paquetes-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="paquetesTitulo" style="font-weight: 900; font-size: 2em; padding-left: 50px;">Tayrona</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align: justify; padding: 30px 50px 30px 50px;">
+                            <p id="descripcion">
+                                Adquiriendo un paquete a el Tayrona,con UNIQUE TRAVELS tendrás acceso a tu
+                                vuelo ida y vuelta, y a tu alojamiento. Además, tu encontrarás variedad de paquetes con
+                                una actividad definida, traslado desde el aeropuerto y asistencia al viajero.<br> <br> 
+                                El paquete incluye: <br><br> ✔ 3 días / 2 noches de alojamiento en Hotel Casa Tayrona Los Naranjos u otro de similar categoría. <br> 
+                                ✔ 2 Desayunos <br> 
+                                ✔ 2 cenas en Casa tayrona los Naranjos. <br>
+                                ✔ Traslado aeropuerto-hotel-aeropuerto. (Transporte en vehículo con aire acondicionado)
+                                <br> ✔ Incluye paseo ecológico a Cabo San Juan.
+                                <br> ✔ Transporte a Tayronaka con entrada incluida.
+                                <br>PRECIO TOTAL POR PERSONA: 800.000.
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="img/pueblito-chayrama2.jpeg" alt=""
+                                style="width: 500px; height: 320px; border-radius: 15px; margin-bottom: 15px; margin-top: 50px;">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                            <!--<button type="button" class="btn btn-primary">Send message</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
     <footer class=" text-center text-white footer mb-0" style="background-color: #069BCA">
         <div class="container p-4">
