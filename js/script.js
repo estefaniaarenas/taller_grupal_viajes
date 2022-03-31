@@ -90,6 +90,13 @@ function comprar() {
   let valor = document.getElementById("num").value;
   let comprar = valor * precioPlan;
   alert("Debes pagar: " + comprar);
+  Swal.fire({
+    icon: "success",
+    title: "el valor total pagado fue de " + comprar,
+    showConfirmButton: true,
+    timer: 1500,
+    confirmButtonColor: "#20284f",
+  });
 }
 
 function informacion(titulo, descripcion) {
