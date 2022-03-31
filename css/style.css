@@ -281,10 +281,40 @@ body {
 
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 65d3c887ef72cb9d53ba0dc71b1b374337e6a7d2
+/*CARDS */
+
+.imagenes{
+  margin: 30px 30px;
+}
+
+.parrafoCard{
+
+  position: relative;
+  margin: 30px 30px;
+  color: #000000;
+  border-style: 30px;
+}
+
+.tituloCard{
+  text-align: center;
+  margin-top:25px ;
+  color:#1c1c1c;
+}
+
+.tituloTestimonio{
+  font-weight: bold;
+  background: #F9f9f9;
+  color: #20284f;
+  font-size: 4rem;
+  
+
+
+
+}
+
+
+
 
 @media (max-width:1285px) and (min-width:815.98px) {
   .tituloUno {
@@ -323,45 +353,12 @@ body {
     justify-content: center;
     align-items: center;
   }
-<<<<<<< HEAD
-}
-=======
 
   
 }
 
-/*CARDS */
-
-.imagenes{
-  margin: 30px 30px;
-}
-
-.parrafoCard{
-
-  position: relative;
-  margin: 30px 30px;
-  color: #000000;
-  border-style: 30px;
-}
-
-.tituloCard{
-  text-align: center;
-  margin-top:25px ;
-  color:#4C0027 ;
-}
-
-.tituloTestimonio{
-  text-align: center;
-  color:#521262;
- font-weight: bold;
- font-style: oblique;
-
-
-
-}
 
 
 
 
 
->>>>>>> 65d3c887ef72cb9d53ba0dc71b1b374337e6a7d2
