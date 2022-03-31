@@ -1,27 +1,25 @@
 /*CONTACTANOS*/
-function Enviar (){
-   
-    let nombre = document.getElementById("inputName").value;
-    let apellido = document.getElementById("inputLast").value;
-    let email = document.getElementById("inputEmail").value;
-    let telefono = document.getElementById("inputPhone").value;
+function Enviar() {
+  let nombre = document.getElementById("inputName").value;
+  let apellido = document.getElementById("inputLast").value;
+  let email = document.getElementById("inputEmail").value;
+  let telefono = document.getElementById("inputPhone").value;
 
-    Swal.fire({
-        position: 'top',
-        icon: 'success',
-        title: 'Tú información ha sido enviada',
-        showConfirmButton: false,
-        timer: 3500,
-        text: `El usuario envio los siguientes datos: \n nombre: ${nombre} \n apellido: ${apellido} \n email: ${email} \n phone: ${telefono}`
-      })
-      document.getElementById(`inputName`).value = "";
-      document.getElementById(`inputLast`).value = "";
-      document.getElementById(`inputEmail`).value = "";
-      document.getElementById(`inputPhone`).value = "";
+  Swal.fire({
+    position: "top",
+    icon: "success",
+    title: "Tú información ha sido enviada",
+    showConfirmButton: false,
+    timer: 3500,
+    text: `El usuario envio los siguientes datos: \n nombre: ${nombre} \n apellido: ${apellido} \n email: ${email} \n phone: ${telefono}`,
+  });
+  document.getElementById(`inputName`).value = "";
+  document.getElementById(`inputLast`).value = "";
+  document.getElementById(`inputEmail`).value = "";
+  document.getElementById(`inputPhone`).value = "";
 }
 
-
-/*destinos compra*/
+/*destinos compra* laura
 
 function calcular() {
   let valor = document.getElementById("num").value;
@@ -78,4 +76,26 @@ function calcularFour() {
     timer: 1500,
     confirmButtonColor: "#20284f",
   });
+}*/
+
+/*DESTINOS ESTEFANIA*/
+
+let precioPlan = 0;
+
+function seleccionarOpcion(precio) {
+  precioPlan = precio;
+}
+
+function comprar() {
+  let valor = document.getElementById("num").value;
+  let comprar = valor * precioPlan;
+  alert("Debes pagar: " + comprar);
+}
+
+function informacion(titulo, descripcion) {
+  let tituloModal = document.getElementById("paquetesTitulo");
+  tituloModal.innerHTML = titulo;
+  let descripcionModal = document.getElementById("descripcion");
+  descripcionModal.innerHTML = descripcion;
+
 }

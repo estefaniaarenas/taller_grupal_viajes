@@ -251,13 +251,12 @@ body{
 
 }
 
-<<<<<<< HEAD
 /*CARDS */
 
 .imagenes{
   border-radius: 60%;
   
-=======
+
 
 
 @media (max-width:1285px) and (min-width:815.98px) {
@@ -294,5 +293,5 @@ body{
     justify-content: center;
     align-items: center;
   }
->>>>>>> fcdd5a9e70fe8962e60112aaaf7a24ee614d612e
+}
 }

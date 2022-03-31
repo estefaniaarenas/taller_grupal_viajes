@@ -51,11 +51,11 @@
     </div>
 
     <div class="destinos">
-        <div class="cards-total"">
+        <div class="cards-total">
                   <div class=" container">
             <div class="row justify-content-evenly">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="">
+                    
                         <div class="card-flyer">
                             <div class="texto-caja">
                                 <div class="imagen-caja">
@@ -68,19 +68,24 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-regular fa-star"></i> 836 Reviews</p>
-                                    <button type="button" class="btn btn-primary btn-sm comprarBotonUno">Ver
-                                        mas</button>
-                                        <button type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal-1">
+                                        
+                                    <button onclick="informacion('Alta Guajira')"
+                                        type="button" 
+                                        class="btn btn-primary btn-sm comprarBotonUno" 
+                                        data-bs-toggle="modal" 
+                                        data-bs-target="#paquetes">
+                                        Ver mas</button>
+                                        <button onclick="seleccionarOpcion(950000)" type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         Comprar plan
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="">
+                    
                         <div class="card-flyer">
                             <div class="texto-caja">
                                 <div class="imagen-caja">
@@ -93,19 +98,20 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i></i> 367 Reviews</p>
-                                    <button type="button" class="btn btn-primary btn-sm comprarBotonUno">Ver
+                                    <button onclick="informacion('Caño Cristales')" type= "button" class="btn btn-primary btn-sm comprarBotonUno"data-bs-toggle="modal" 
+                                    data-bs-target="#paquetes">Ver
                                         mas</button>
-                                    <button type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal-2">
+                                    <button onclick="seleccionarOpcion(1000000)" type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         Comprar plan
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="">
+                    
                         <div class="card-flyer">
                             <div class="texto-caja">
                                 <div class="imagen-caja">
@@ -120,19 +126,20 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i> 382 Reviews</p>
-                                    <button type="button" class="btn btn-primary btn-sm comprarBotonUno">Ver
+                                    <button onclick="informacion('Guatape' )" type="button" class="btn btn-primary btn-sm comprarBotonUno"data-bs-toggle="modal" 
+                                    data-bs-target="#paquetes">Ver
                                         mas</button>
-                                        <button type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal-3">
+                                        <button onclick="seleccionarOpcion(600000)" type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         Comprar plan
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <a href="">
+                    
                         <div class="card-flyer">
                             <div class="texto-caja">
                                 <div class="imagen-caja">
@@ -146,16 +153,17 @@
                                     <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                             class="fa-solid fa-star"></i> 500 Reviews</p>
-                                    <button type="button" class="btn btn-primary btn-sm comprarBotonUno">Ver
+                                    <button onclick="informacion('Tayrona','Adquiriendo un paquete a el Tayrona,con UNIQUE TRAVELS tendrás acceso a tu vuelo ida y vuelta, y a tu alojamiento. Además, tu encontrarás variedad de paquetes con una actividad definida, traslado desde el aeropuerto y asistencia al viajero. Este paquete esta diseñado para 2 personas y su costo es de 800.000')" type="button" class="btn btn-primary btn-sm comprarBotonUno"data-bs-toggle="modal" 
+                                    data-bs-target="#paquetes">Ver
                                         mas</button>
-                                        <button type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal-4">
+                                        <button onclick="seleccionarOpcion(800000)"type="button" class="btn  btn-sm buy" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
                                         Comprar plan
                                     </button>
                                 </div>
                             </div>
                         </div>
-                    </a>
+                    
                 </div>
             </div>
         </div>
@@ -163,8 +171,8 @@
 
     </div>
 
-    <!-- Modal#1-->
-    <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal/COMPRAR MAS-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -173,20 +181,49 @@
                 </div>
                 <div class="modal-body">
                     <form>
-                        <label for="">Digite el numero de personas</label>
+                        <label for="">Digite el numero de paquetes</label>
                         <input id="num" type="number">
                     </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button onclick="calcular()" type="button" class="btn btn-info">Buy</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button onclick="comprar()" type="button" class="btn btn-info">Comprar</button>
                 </div>
             </div>
         </div>
     </div>
 
-     <!--Modal#2-->
-     <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!--Modal/VER MÁS-->
+    
+
+<div class="modal fade" id="paquetes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="paquetesTitulo">Conoce más de esta aventura.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <p id="descripcion"></p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       <!--<button type="button" class="btn btn-primary">Send message</button>-->
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--Modal#2 LAURA
+        <div class="modal fade" id="exampleModal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -205,9 +242,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
 
- <!--Modal#3-->
+ <!--Modal#3
  <div class="modal fade" id="exampleModal-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -227,9 +264,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
-  <!--Modal#4-->
+  <!--Modal#4 LAURA
  <div class="modal fade" id="exampleModal-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -249,7 +286,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
 
    
