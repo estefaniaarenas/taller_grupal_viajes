@@ -306,10 +306,18 @@ body {
   background: #F9f9f9;
   color: #20284f;
   font-size: 4rem;
-  
+}
 
+.customCarouselCard {
+  margin-left: auto;
+  margin-right: auto;
+  width:  1000px;
+  height: 450px;
+}
 
-
+.heroContainer {
+  height: 70vh;
+  padding-top: 5em;
 }
 
 
