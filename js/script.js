@@ -76,7 +76,6 @@ function calcularFour() {
     timer: 1500,
     confirmButtonColor: "#20284f",
   });
-<<<<<<< HEAD
 }*/
 
 /*DESTINOS ESTEFANIA*/
@@ -100,12 +99,3 @@ function informacion(titulo, descripcion) {
   descripcionModal.innerHTML = descripcion;
 
 }
-=======
-  
-  valor = document.getElementById("num").value;
-  plan = 800000;
-  calculo = valor * plan;
-
-
-}
->>>>>>> d001c7dd1bd22846eb7f380c8e6d86d627099a13
